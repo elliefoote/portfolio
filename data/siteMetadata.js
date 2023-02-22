@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'Ellie Foote | Software Engineer',
   author: 'Ellie Foote',
   headerTitle: 'Ellie Foote',
-  description: `Ellie Foote's home on the web`,
+  description: `I'm a software engineer from Australia, currently living in sunny Barcelona, Spain.`,
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://elliefoote.com',
@@ -12,8 +12,8 @@ const siteMetadata = {
   socialBanner: '/static/images/twitter-card.png',
   email: 'eleanorjfoote@gmail.com',
   github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
-  linkedin: 'https://www.linkedin.com',
+  twitter: 'https://twitter.com/codewithellie',
+  linkedin: 'https://www.linkedin.com/elliefoote',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
@@ -23,11 +23,6 @@ const siteMetadata = {
     simpleAnalytics: false, // true or false
     umamiWebsiteId: '', // e.g. 123e4567-e89b-12d3-a456-426614174000
     googleAnalyticsId: '', // e.g. UA-000000-2 or G-XXXXXXX
-  },
-  newsletter: {
-    // supports mailchimp, buttondown, convertkit, klaviyo, revue
-    // Please add your .env file and modify it according to your selection
-    provider: 'buttondown',
   },
   comment: {
     // If you want to use an analytics provider you have to add it to the
