@@ -3,6 +3,9 @@ import '@/css/prism.css'
 import 'katex/dist/katex.css'
 
 import '@fontsource/inter/variable-full.css'
+import '@fontsource/playfair-display/variable.css'
+import '@fontsource/playfair-display/variable-italic.css'
+import '@fontsource/lato'
 
 import { ThemeProvider } from 'next-themes'
 import type { AppProps } from 'next/app'

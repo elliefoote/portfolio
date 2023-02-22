@@ -30,10 +30,11 @@ module.exports = {
       },
       fontFamily: {
         //@ts-ignore
-        sans: ['InterVariable', ...defaultTheme.fontFamily.sans],
+        sans: ['Lato', ...defaultTheme.fontFamily.sans],
+        serif: ['Playfair DisplayVariable', ...defaultTheme.fontFamily.serif],
       },
       colors: {
-        primary: colors.teal,
+        primary: colors.violet,
         gray: colors.neutral,
       },
       typography: (theme) => ({
