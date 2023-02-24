@@ -4,8 +4,8 @@ import { AiFillMail, AiFillLinkedin, AiFillTwitterSquare, AiFillGithub } from 'r
 
 const components = {
   mail: AiFillMail,
-  github: AiFillLinkedin,
-  linkedin: AiFillGithub,
+  github: AiFillGithub,
+  linkedin: AiFillLinkedin,
   twitter: AiFillTwitterSquare,
 }
 
