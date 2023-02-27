@@ -6,14 +6,14 @@ const siteMetadata = {
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://elliefoote.com',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteRepo: 'https://github.com/elliefoote/portfolio',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
   email: 'eleanorjfoote@gmail.com',
-  github: 'https://github.com',
+  github: 'https://github.com/elliefoote',
   twitter: 'https://twitter.com/codewithellie',
-  linkedin: 'https://www.linkedin.com/elliefoote',
+  linkedin: 'https://www.linkedin.com/in/ellie-foote',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
