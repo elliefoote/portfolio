@@ -34,23 +34,13 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
             <RoughNotation
               type="underline"
               show={true}
-              color="#8b5cf6"
-              animationDelay={800}
-              animationDuration={1200}
-            >
-              code
-            </RoughNotation>
-            {', '}
-            <RoughNotation
-              type="underline"
-              show={true}
               color="#06b6d4"
               animationDelay={800}
               animationDuration={1200}
             >
-              projects
+              projects{' '}
             </RoughNotation>
-            , and{' '}
+            and
             <RoughNotation
               type="underline"
               show={true}
@@ -58,6 +48,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
               animationDelay={800}
               animationDuration={1200}
             >
+              {' '}
               reflections
             </RoughNotation>
             .

@@ -30,4 +30,4 @@ $PROJECT_ROOT
 
 ## Credits
 
-Forked from Timothy Lin's excellent Tailwind NextJs starter blog [template](https://github.com/timlrx/tailwind-nextjs-starter-blog/).
+Based on Timothy Lin's excellent Tailwind NextJs starter blog [template](https://github.com/timlrx/tailwind-nextjs-starter-blog/).
