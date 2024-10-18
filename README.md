@@ -2,7 +2,7 @@
 
 ## Stack
 
-- **NextJS** - I chose NextJS because I wanted to get more experience with the framework. I love Next' developer experience, speed, and built-in Typescript support.
+- **NextJS** - I love the developer experience, speed, and built-in Typescript support.
 - **TailwindCSS** - Tailwind's utility-first CSS approach suits me perfectly—its sensible defaults help me to avoid a lot of pitfalls as someone who greatly prefers coding to visual design!
 - **react-rough-notation** - used for JS animations on the home page.
 - **Contentlayer** - Content SDK that validates and transforms blog post content in Markdown into type-safe JSON data.
