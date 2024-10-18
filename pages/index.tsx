@@ -29,19 +29,8 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
             Hi, I'm Ellie 👋
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            I'm a software engineer from Australia, currently living in sunny Barcelona, Spain. I
-            created this space as a way to document my journey in tech, as well as a place for me to
-            share{' '}
-            <RoughNotation
-              type="underline"
-              show={true}
-              color="#8b5cf6"
-              animationDelay={800}
-              animationDuration={1200}
-            >
-              code
-            </RoughNotation>
-            {', '}
+            I'm a software engineer, currently living in sunny Sydney, Australia. I created this
+            space as a way to document my journey in tech, as well as a place for me to share{' '}
             <RoughNotation
               type="underline"
               show={true}
@@ -49,9 +38,9 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
               animationDelay={800}
               animationDuration={1200}
             >
-              projects
+              projects{' '}
             </RoughNotation>
-            , and{' '}
+            and
             <RoughNotation
               type="underline"
               show={true}
@@ -59,6 +48,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
               animationDelay={800}
               animationDuration={1200}
             >
+              {' '}
               reflections
             </RoughNotation>
             .

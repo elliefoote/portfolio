@@ -1,7 +1,7 @@
 import Image from './Image'
 import Link from './Link'
 
-const Card = ({ title, description, imgSrc, href }) => (
+const Card = ({ title, description, imgSrc, liveLink, githubRepo }) => (
   <div className="md p-4 md:w-1/2" style={{ maxWidth: '544px' }}>
     <div
       className={`${
@@ -9,8 +9,8 @@ const Card = ({ title, description, imgSrc, href }) => (
       }  overflow-hidden rounded-md border-2 border-gray-200 border-opacity-60 dark:border-gray-700`}
     >
       {imgSrc &&
-        (href ? (
-          <Link href={href} aria-label={`Link to ${title}`}>
+        (liveLink ? (
+          <Link href={liveLink} aria-label={`Link to ${title}`}>
             <Image
               alt={title}
               src={imgSrc}
@@ -30,8 +30,8 @@ const Card = ({ title, description, imgSrc, href }) => (
         ))}
       <div className="p-6">
         <h2 className="mb-3 text-2xl font-bold leading-8 tracking-tight">
-          {href ? (
-            <Link href={href} aria-label={`Link to ${title}`}>
+          {liveLink ? (
+            <Link href={liveLink} aria-label={`Link to ${title}`}>
               {title}
             </Link>
           ) : (
@@ -39,15 +39,26 @@ const Card = ({ title, description, imgSrc, href }) => (
           )}
         </h2>
         <p className="prose mb-3 max-w-none text-gray-500 dark:text-gray-400">{description}</p>
-        {href && (
-          <Link
-            href={href}
-            className="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-            aria-label={`Link to ${title}`}
-          >
-            Learn more &rarr;
-          </Link>
-        )}
+        <div className="flex-col flex">
+          {liveLink && (
+            <Link
+              href={liveLink}
+              className="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+              aria-label={`Link to ${title}`}
+            >
+              View live project &rarr;
+            </Link>
+          )}
+          {githubRepo && (
+            <Link
+              href={githubRepo}
+              className="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+              aria-label={`Link to Github repo for ${title}`}
+            >
+              View Github repo &rarr;
+            </Link>
+          )}
+        </div>
       </div>
     </div>
   </div>
